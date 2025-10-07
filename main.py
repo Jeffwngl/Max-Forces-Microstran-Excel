@@ -23,7 +23,7 @@ def find_range(filePath, startRow, endRow, caseNumber, isMax):
         return filtered.min()
 
 if __name__ == "__main__":
-    filePath = "public/Steels Assignment 2_results.csv" # Change to your file format: public/
+    filePath = "public/Steels Assignment 2_results.csv" # Change to your file format: public/filename
     startMember = input("Enter member start: ")
     endMember = input("Enter member end: ")
     caseNumber = input("Enter case number: ")
