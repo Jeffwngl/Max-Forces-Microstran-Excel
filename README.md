@@ -1,2 +1,5 @@
 # Max-Forces-Microstran-Excel
-A python script for finding the maximum forces for a Truss in Microstran, Including segments of the truss and diagonal max tension and compression forces.
+Instructions:
+1. Put your csv file in the public folder.
+2. Change file csv to your csv name.
+3. Run using python main.py while in project directory.
