@@ -23,11 +23,11 @@ def find_range(filePath, startRow, endRow, caseNumber, isMax):
         return filtered.min()
 
 if __name__ == "__main__":
-    filePath = "public/Steels Assignment 2_results.csv"
+    filePath = "public/Steels Assignment 2_results.csv" # Change to your file format: public/
     startMember = input("Enter member start: ")
     endMember = input("Enter member end: ")
     caseNumber = input("Enter case number: ")
     isMax = True if input("Enter max for maximum or anything else for minimum: ") == "max" else False
 
     result = find_range(filePath, startMember, endMember, caseNumber, isMax)
-    print("The maximum is: " + str(result))
+    print("The maximum is: " + str(result) if isMax else "The minimum is: " + str(result))
